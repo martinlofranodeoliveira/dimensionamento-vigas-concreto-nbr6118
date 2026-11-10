@@ -1,0 +1,54 @@
+================================================================================
+       LOFRANO TECNOLOGIA - ENGENHARIA ESTRUTURAL DE CONCRETO ARMADO
+         MEMORIAL DE CÁLCULO NORMATIVO - ABNT NBR 6118:2023 (VIGAS)
+================================================================================
+Projeto / Identificação: Viga V101 - Residencial Bela Vista
+Norma Regulamentadora:   ABNT NBR 6118:2023
+Status de Aprovação:     APROVADO
+--------------------------------------------------------------------------------
+1. CARACTERÍSTICAS GEOMÉTRICAS E DA SEÇÃO TRANSVERSAL
+  - Largura da nervura (bw):   20 cm
+  - Altura total da viga (h):  45 cm
+  - Altura útil (d):           41 cm
+  - Vão teórico livre (L):     5 m (biapoiada)
+
+2. DIMENSIONAMENTO À FLEXÃO SIMPLES NO ESTADO LIMITE ÚLTIMO (ELU)
+  - Momento fletor de cálculo (Msd): 67,20 kN.m
+  - Momento adimensional (mu):        0,1317
+  - Posição da linha neutra (x):      7,26 cm
+  - Relação x/d (xi):                 0,177 (Limite ductilidade: 0,45)
+  - Domínio de Deformação:            Domínio 2
+  - Tipo de armadura dimensionada:    SIMPLES
+  - Armadura de tração calculada:     4,06 cm²
+  - Armadura mínima normativa:        1,35 cm²
+  - Armadura de tração final:         4,06 cm²
+
+3. DIMENSIONAMENTO AO CISALHAMENTO NO ELU (MODELO DE CÁLCULO I)
+  - Força cortante de cálculo (Vsd):   53,20 kN
+  - Força resistente da biela (VRd2):  355,82 kN -> ATENDE BIELA
+  - Taxa de trabalho da biela:         15,0%
+  - Parcela resistida pelo concreto (Vc): 63,26 kN
+  - Parcela resistida pelo aço (Vsw):     0 kN
+  - Taxa de armadura transversal:      2,05 cm²/m (Mín: 2,05 cm²/m)
+  - Espaçamento máximo normativo:      24,6 cm
+
+4. DETALHAMENTO DAS ARMADURAS (BARRAS COMERCIAIS)
+  - Armadura Longitudinal Inferior:    4 Φ 12.5 mm (1 camada) (As,ef = 4,91 cm²)
+  - Armadura Superior:                 2 Φ 6.3 mm (porta-estribos construtivo)
+  - Armadura Transversal (Estribos):   2R Φ 6.3 mm c/ 24 cm (Asw,ef = 2,60 cm²/m)
+
+5. VERIFICAÇÃO DOS ESTADOS LIMITES DE SERVIÇO (ELS)
+  - Abertura de fissuras estimada (wk): 0,163 mm (Limite: 0,30 mm) -> CONFORME
+  - Flecha imediata em serviço:         0,59 cm
+  - Flecha total diferida (tempo):      1,36 cm (Limite L/250: 2 cm) -> CONFORME
+
+6. SÍNTESE DE CONFORMIDADES
+  - [flexao_elu]:       CONFORME
+  - [cisalhamento_elu]: CONFORME
+  - [fissuracao_els]:   CONFORME
+  - [deformacao_els]:   CONFORME
+  RECOMENDAÇÕES EXECUTIVAS:
+    [*] Seção transversal e detalhamento plenamente conformes aos Estados Limites Último (ELU) e de Serviço (ELS) da ABNT NBR 6118:2023.
+================================================================================
+LOFRANO TECNOLOGIA - Soluções Determinísticas e Engenharia Confiável.
+================================================================================

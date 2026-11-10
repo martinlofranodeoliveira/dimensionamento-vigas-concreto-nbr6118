@@ -1,0 +1,192 @@
+{
+  "alertas": [],
+  "atende_geral": true,
+  "conformidades": {
+    "cisalhamento_elu": true,
+    "deformacao_els": true,
+    "fissuracao_els": true,
+    "flexao_elu": true
+  },
+  "identificacao": "Viga V101 - Residencial Bela Vista",
+  "norma": "ABNT NBR 6118:2023",
+  "recomendacoes": [
+    "Seção transversal e detalhamento plenamente conformes aos Estados Limites Último (ELU) e de Serviço (ELS) da ABNT NBR 6118:2023."
+  ],
+  "resultado_cisalhamento": {
+    "area_estribos_por_metro_calculada_cm2_m": {
+      "den": 1,
+      "num": 0
+    },
+    "area_estribos_por_metro_final_cm2_m": {
+      "den": 125,
+      "num": 256
+    },
+    "area_estribos_por_metro_minima_cm2_m": {
+      "den": 125,
+      "num": 256
+    },
+    "atende_biela_compressao": true,
+    "atende_cisalhamento": true,
+    "espacamento_maximo_estribo_cm": {
+      "den": 5,
+      "num": 123
+    },
+    "forca_cortante_sd_kN": {
+      "den": 5,
+      "num": 266
+    },
+    "observacoes": [
+      "Vsd (53.2 kN) inferior a Vc (63.3 kN): necessária apenas armadura transversal mínima."
+    ],
+    "parcela_armadura_vsw_kN": {
+      "den": 1,
+      "num": 0
+    },
+    "parcela_concreto_vc_kN": {
+      "den": 35,
+      "num": 2214
+    },
+    "resistencia_biela_v_rd2_kN": {
+      "den": 28,
+      "num": 9963
+    },
+    "taxa_trabalho_biela": {
+      "den": 49815,
+      "num": 7448
+    }
+  },
+  "resultado_detalhamento": {
+    "area_compressao_efetiva_cm2": {
+      "den": 1,
+      "num": 0
+    },
+    "area_estribo_efetiva_cm2_m": {
+      "den": 3000,
+      "num": 7793
+    },
+    "area_tracao_efetiva_cm2": {
+      "den": 12500,
+      "num": 61359
+    },
+    "barras_compressao": "2 Φ 6.3 mm (porta-estribos construtivo)",
+    "barras_tracao": "4 Φ 12.5 mm (1 camada)",
+    "bitola_compressao_mm": null,
+    "bitola_estribo_mm": {
+      "den": 10,
+      "num": 63
+    },
+    "bitola_tracao_mm": {
+      "den": 2,
+      "num": 25
+    },
+    "espacamento_estribo_cm": {
+      "den": 1,
+      "num": 24
+    },
+    "estribos_adotados": "2R Φ 6.3 mm c/ 24 cm",
+    "numero_barras_compressao": 0,
+    "numero_barras_tracao": 4,
+    "numero_ramos": 2,
+    "observacoes": []
+  },
+  "resultado_els": {
+    "abertura_fissura_estimada_wk_mm": {
+      "den": 74319961765833067236380651688065048597650767,
+      "num": 12145225000000000000000000000000000000000000
+    },
+    "atende_deformacao": true,
+    "atende_fissuracao": true,
+    "flecha_imediata_cm": {
+      "den": 1701,
+      "num": 1000
+    },
+    "flecha_limite_cm": {
+      "den": 1,
+      "num": 2
+    },
+    "flecha_total_diferida_cm": {
+      "den": 1701,
+      "num": 2320
+    },
+    "limite_fissura_w_lim_mm": {
+      "den": 10,
+      "num": 3
+    },
+    "momento_servico_kNm": {
+      "den": 1,
+      "num": 48
+    },
+    "observacoes": [
+      "Abertura de fissuras (wk=0.163 mm) atende ao limite normativo wlim=0.30 mm.",
+      "Flecha total diferida (1.36 cm) atende ao limite normativo L/250 (2.00 cm)."
+    ],
+    "tensao_aco_servico_kN_cm2": {
+      "den": 1086131636953367207847,
+      "num": 27880000000000000000000
+    }
+  },
+  "resultado_flexao": {
+    "altura_util_d_cm": {
+      "den": 1,
+      "num": 41
+    },
+    "area_aco_compressao_calculada_cm2": {
+      "den": 1,
+      "num": 0
+    },
+    "area_aco_maxima_cm2": {
+      "den": 1,
+      "num": 36
+    },
+    "area_aco_minima_cm2": {
+      "den": 20,
+      "num": 27
+    },
+    "area_aco_tracao_calculada_cm2": {
+      "den": 2528751485876719,
+      "num": 10259840000000000
+    },
+    "area_aco_tracao_final_cm2": {
+      "den": 2528751485876719,
+      "num": 10259840000000000
+    },
+    "atende_ductilidade": true,
+    "atende_taxa_maxima": true,
+    "dominio_deformacao": "Domínio 2",
+    "momento_sd_kNm": {
+      "den": 5,
+      "num": 336
+    },
+    "observacoes": [
+      "Deformação plástica do aço com escoamento pleno a 10‰ (Domínio 2)."
+    ],
+    "parametro_mu": {
+      "den": 142885,
+      "num": 18816
+    },
+    "posicao_linha_neutra_x_cm": {
+      "den": 557600000000000,
+      "num": 4050218796588901
+    },
+    "relacao_x_d": {
+      "den": 22861600000000000,
+      "num": 4050218796588901
+    },
+    "tipo_armadura": "simples"
+  },
+  "secao": {
+    "altura_h_cm": {
+      "den": 1,
+      "num": 45
+    },
+    "comprimento_vao_m": {
+      "den": 1,
+      "num": 5
+    },
+    "largura_bw_cm": {
+      "den": 1,
+      "num": 20
+    },
+    "tipo_apoio": "biapoiada"
+  }
+}

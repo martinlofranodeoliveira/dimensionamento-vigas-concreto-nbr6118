@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dimensionamento-vigas-concreto-nbr6118"
+version = "1.0.0"
+description = "Dimensionamento e verificação de vigas de concreto armado segundo a ABNT NBR 6118:2023. LOFRANO TECNOLOGIA."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Martin Lofrano de Oliveira (LOFRANO TECNOLOGIA)" }
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Typing :: Typed",
+]
+keywords = [
+    "engenharia-estrutural",
+    "concreto-armado",
+    "vigas",
+    "abnt-nbr-6118",
+    "flexao-simples",
+    "cisalhamento",
+    "zero-float",
+    "lofrano-tecnologia"
+]
+dependencies = []
+
+[project.scripts]
+vigas-concreto = "vigas_concreto_nbr6118.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+vigas_concreto_nbr6118 = ["py.typed"]

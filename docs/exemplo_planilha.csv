@@ -1,0 +1,21 @@
+Categoria;Parâmetro;Valor Calculado / Adotado;Unidade;Referência Normativa;Conformidade
+Geometria;Largura (bw);20;cm;NBR 6118 item 15.2.4;CONFORME
+Geometria;Altura total (h);45;cm;NBR 6118 item 15.2.4;CONFORME
+Geometria;Altura útil (d);41;cm;NBR 6118 item 17.2;CONFORME
+Geometria;Vão teórico (L);5;m;NBR 6118 item 14.6;CONFORME
+Flexão ELU;Momento de Cálculo (Msd);67,20;kN.m;NBR 6118 item 17.2;CONFORME
+Flexão ELU;Posição Linha Neutra (x);7,26;cm;NBR 6118 item 17.2;CONFORME
+Flexão ELU;Relação x/d (xi);0,177;-;Limite: xi <= 0,45;CONFORME
+Flexão ELU;Domínio de Deformação;Domínio 2;-;Domínio 2 / 3;CONFORME
+Flexão ELU;Armadura Tração Necessária (As);4,06;cm²;NBR 6118 item 17.2;CONFORME
+Flexão ELU;Armadura Mínima (As,min);1,35;cm²;NBR 6118 Tabela 17.3;CONFORME
+Cisalhamento ELU;Cortante de Cálculo (Vsd);53,20;kN;NBR 6118 item 19.4;CONFORME
+Cisalhamento ELU;Resistência da Biela (VRd2);355,82;kN;NBR 6118 item 19.4.1;CONFORME
+Cisalhamento ELU;Parcela Concreto (Vc);63,26;kN;NBR 6118 item 19.4.1;CONFORME
+Cisalhamento ELU;Armadura Transversal (Asw/s);2,05;cm²/m;NBR 6118 item 19.4.1;CONFORME
+Cisalhamento ELU;Espaçamento Máximo (s,max);24,6;cm;NBR 6118 item 18.3.3;CONFORME
+Detalhamento;Armadura Longitudinal Tração;4 Φ 12.5 mm (1 camada);-;As,ef = 4,91 cm²;CONFORME
+Detalhamento;Armadura Superior / Compressão;2 Φ 6.3 mm (porta-estribos construtivo);-;As',ef = 0 cm²;CONFORME
+Detalhamento;Armadura Transversal (Estribos);2R Φ 6.3 mm c/ 24 cm;-;Asw,ef = 2,60 cm²/m;CONFORME
+Serviço ELS;Abertura Fissuras (wk);0,163;mm;Limite: 0,30 mm;CONFORME
+Serviço ELS;Flecha Total Diferida;1,36;cm;Limite: 2 cm;CONFORME

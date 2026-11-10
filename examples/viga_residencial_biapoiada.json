@@ -1,0 +1,49 @@
+{
+  "identificacao": "Viga V101 - Residencial Bela Vista",
+  "secao": {
+    "largura_bw_cm": {
+      "num": 20,
+      "den": 1
+    },
+    "altura_h_cm": {
+      "num": 45,
+      "den": 1
+    },
+    "comprimento_vao_m": {
+      "num": 5,
+      "den": 1
+    },
+    "tipo_apoio": "biapoiada"
+  },
+  "materiais": {
+    "classe_concreto_fck": 25,
+    "tipo_aco_longitudinal": "CA_50",
+    "tipo_aco_transversal": "CA_50",
+    "classe_agressividade": "CAA_II"
+  },
+  "esforcos": {
+    "momento_fletor_k_kNm": {
+      "num": 48,
+      "den": 1
+    },
+    "forca_cortante_k_kN": {
+      "num": 38,
+      "den": 1
+    }
+  },
+  "detalhamento": {
+    "bitola_longitudinal_sugerida_mm": {
+      "num": 125,
+      "den": 10
+    },
+    "bitola_estribo_sugerida_mm": {
+      "num": 63,
+      "den": 10
+    },
+    "numero_ramos_estribo": 2,
+    "d_linha_estimado_cm": {
+      "num": 4,
+      "den": 1
+    }
+  }
+}
